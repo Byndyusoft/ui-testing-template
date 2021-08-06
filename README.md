@@ -10,7 +10,7 @@ Make sure you have installed all the following prerequisites on your development
 
 ## Contributing
 
-To contribute, you will need to setup your local environment, see [running locally](#running-locally). For the contribution and workflow guide, see [service development lifecycle](#service-development-lifecycle).
+To contribute, you will need to setup your local environment, see [running locally](#running-locally).
 
 ### Code conventions
 
