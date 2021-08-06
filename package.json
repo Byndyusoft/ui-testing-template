@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "description": "Base template for UI test with Cypress",
+  "homepage": "https://github.com/selivanovaa/UI testing template#readme",
+  "bugs": {
+    "url": "https://github.com/selivanovaa/ui-test-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selivanova/UI-tests-template.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Byndyusoft",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo '(・_・)ノ'",
+    "cypress:open": "yarn run cypress open",
+    "lint": "yarn run lint:markdown && yarn run lint:prettier",
+    "lint:fix": "yarn run lint:markdown:fix && yarn run lint:prettier:fix",
+    "lint:markdown": "markdownlint --ignore-path ./.gitignore \"./**/*.md\"",
+    "lint:markdown:fix": "markdownlint --ignore-path ./.gitignore --fix \"./**/*.md\"",
+    "lint:prettier": "prettier --ignore-path ./.gitignore --check \"./**/*.{ts,js,json,yaml,yml,md}\"",
+    "lint:prettier:fix": "prettier --ignore-path ./.gitignore --write \"./**/*.{ts,js,json,yaml,yml,md}\"",
+    "postinstall": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
+    "test:cov": "echo '╮(˘､˘)╭'"
+  },
+  "devDependencies": {
+    "@byndyusoft/eslint-config": "1.0.0",
+    "@byndyusoft/tsconfig": "1.0.0",
+    "@commitlint/cli": "^12.1.0",
+    "@commitlint/config-conventional": "^12.1.0",
+    "cypress": "^7.0.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "markdownlint-cli": "^0.27.1",
+    "pinst": "^2.1.6",
+    "prettier": "^2.2.1",
+    "prettier-plugin-packagejson": "^2.2.10",
+    "shx": "^0.3.3",
+    "typescript": "^4.2.3"
+  }
+}
