@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
   "description": "Base template for UI test with Cypress",
-  "homepage": "https://github.com/selivanovaa/UI testing template#readme",
+  "homepage": "https://github.com/Byndyusoft/ui-testing-templatee#readme",
   "bugs": {
-    "url": "https://github.com/selivanovaa/ui-test-template/issues"
+    "url": "https://github.com/Byndyusoft/ui-testing-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selivanova/UI-tests-template.git"
+    "url": "git+https://github.com/Byndyusoft/ui-testing-template.git"
   },
   "license": "Apache-2.0",
   "author": "Byndyusoft",
