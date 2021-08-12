@@ -20,7 +20,7 @@ Some code conventions are enforced automatically by ESLint + Prettier + markdown
 
 - `cypress/integration/` - UI tests folder
 - `cypress/fixtures/` - fixture files
-- `cypress/plagins/` - plugins file can be used to load plugins
+- `cypress/plugins/` - plugins file can be used to load plugins
 
 ### Usage
 
