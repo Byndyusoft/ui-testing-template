@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["./node_modules/@bigfishwms/inbound-eslint-config"]
+  "extends": ["@byndyusoft/eslint-config/javascript", "plugin:cypress/recommended", "plugin:prettier/recommended"]
 }
