@@ -29,7 +29,7 @@ See [Cypress documentation](https://docs.cypress.io/guides/overview/why-cypress)
 ### Running locally
 
 ```bash
-yarn install <Package name>
+yarn install
 yarn cypress:open
 ```
 
